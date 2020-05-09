@@ -1,0 +1,19 @@
+{
+  "name": "cors_anywhere_api",
+  "version": "1.0.0",
+  "description": "api con cors anywhere",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "author": "Oscar Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "cors-anywhere": "^0.4.3",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
